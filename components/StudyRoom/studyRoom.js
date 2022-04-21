@@ -1,5 +1,4 @@
 import {useRef, useEffect} from 'react';
-import { rainy } from '../../public/images';
 
 const StudyRoom = () => {
 
@@ -7,17 +6,20 @@ const StudyRoom = () => {
 
     useEffect(() => {
         const canvas = canvasRef.current;
+        canvas.width = canvas.clientWidth;
+        canvas.height = canvas.clientHeight;
         const context = canvas?.getContext('2d');
         
         const image = new Image();
-        image.src = rainy;
+        image.src = "../../images/rainy.png";
         image.onload = () => {
-            context.drawImage(image, 0, 0, 500, 500);
+            context.drawImage(image, 200, 200, 100, 100);
         }
-    }, []);
+
+    }, [canvasRef]);
 
     return (
-        <canvas ref={canvasRef}>
+        <canvas ref={canvasRef} width={500} height={500}>
         </canvas>
     )
 
