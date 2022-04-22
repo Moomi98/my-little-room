@@ -1,3 +1,12 @@
+.layout {
+  position: relative;
+  width: 70%;
+  height: 100%;
+}
+
 .window {
-  background-color: aqua;
+  background-color: skyblue;
+  position: absolute;
+  top: 30px !important;
+  left: 20px !important;
 }

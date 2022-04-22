@@ -21,6 +21,7 @@ const Timer = () => {
               ? "0" + (parseInt(hours) + 1)
               : parseInt(hours) + 1
           );
+          setMinutes("00");
         } else {
           setMinutes(
             parseInt(minutes) < 9
