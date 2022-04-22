@@ -1,18 +1,17 @@
 .layout {
-    width: 60px;
-    height: 60px;
-    border: 2px solid #d3d3d3;
-    border-radius: 8px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #d3d3d3;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.layout:hover{
-    border: 2px solid #888;
+.layout:hover {
+  border: 2px solid #888;
 }
 
-.playImage{
-    filter: opacity(0.3) drop-shadow(0 0 0 white);
-
+.playImage {
+  filter: opacity(0.3) drop-shadow(0 0 0 white);
 }
