@@ -5,3 +5,5 @@ export { default as wind } from "../images/wind.png";
 export { default as window } from "../images/window.png";
 export { default as cat1 } from "../images/cat1.png";
 export { default as cat2 } from "../images/cat2.png";
+export { default as nightSky } from "../images/nightSky.png";
+export { default as start } from "../images/star.png";
